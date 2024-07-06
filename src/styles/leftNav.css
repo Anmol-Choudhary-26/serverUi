@@ -1,0 +1,35 @@
+.leftNavMain{
+    width: 4%;
+    margin-left: 1%;
+    align-content: end;
+    
+}
+
+
+.mode{
+    margin-bottom: -2vh;
+}
+
+.imgIcon{
+  width:4vh;
+  height: 4vh;
+  margin-top: 2vh;
+  transition: opacity .1s cubic-bezier(.455, .03, .515, .955);
+}
+
+.sideItemMenu{
+    display: flex;
+    flex-direction: column;
+    margin:20%;
+    margin-top: 25vh;
+    margin-bottom: 5vh;
+
+}
+
+.helperIcon{
+    width:1.4vh;
+    height: 1.4vh;
+    margin-top: 1vh;
+    margin-left: 4%;
+    transition: opacity .1s cubic-bezier(.455, .03, .515, .955);
+}
