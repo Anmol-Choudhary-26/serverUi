@@ -5,6 +5,7 @@ import SettingsInfo from "../component/settingsInfo.js"
 import advanceData from "../utils/advancedData.js"
 import rules from '../utils/ruleData.js'
 import Map from "../component/map.js"
+import mapData from "../utils/mapData.js"
 function serverUi() {
     const renderedOptions = settingsData.map((items, index) => {
         return (
@@ -20,6 +21,11 @@ function serverUi() {
     const renderRule = rules.map((items, index) => {
         return (
             <SettingsInfo key={index} values={items} />
+        )
+    })
+    const renderedMap = mapData.map((item) =>{
+        return (
+            <Map key={item.id} map={item} />
         )
     })
 
@@ -66,8 +72,8 @@ function serverUi() {
                 </div>
             </div>
 <div>  
-    <div>MAP ROTATION</div>
-    <Map/>
+    <div className="mapDiv">MAP ROTATION</div>
+   <div className="renderDiv">{renderedMap}</div> 
     </div>
            
 

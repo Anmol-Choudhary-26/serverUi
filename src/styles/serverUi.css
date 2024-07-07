@@ -1,8 +1,9 @@
 .serverUiMain{
     width: 70%;
-    margin-top: 28vh;
+    margin-top: 13%;
     color: white;
     overflow-y: auto; 
+    overflow-x:hidden;
 }
 .serverUiMain::-webkit-scrollbar{
     width: 2px;
@@ -22,6 +23,7 @@
  margin:  2vh 2vh 2vh 0;
  display: flex;
  flex-direction: row;
+
  width: 100vh;
 }
 
@@ -33,6 +35,7 @@
     margin-right: 1vh;
     display: flex;
     width: 27%;
+    color: white;
     background-color: transparent ;
 }
 
@@ -46,6 +49,7 @@
     border: 1px solid rgba(255, 255, 255, .2);
     justify-content: center;
     align-items: center;
+    color: white;
     margin-right: 1vh;
     display: flex;
     background-color: transparent ;
@@ -54,6 +58,8 @@
 
 .startButton:hover{
     background-color: white;
+    color:black;
+    fill:black;
 
 }
 
@@ -73,8 +79,20 @@
     display: flex;
     margin-top: 3vh;
     gap: 5vh;
-    width: 100vh;
+    width: 100%;
 }
 .settings{
-    width: 30vh;
+    width: 20%;
+}
+
+.mapDiv{
+    margin: 4vh 0 2vh 0;
+
+}
+
+.renderDiv{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2vh; 
+    margin:0 1vh 1vh 0;
 }

@@ -3,3 +3,9 @@
     height: 5vh;
     margin-top: 1vh;
 }
+
+.tooltip{
+    width: 10vh;
+    height: 2vh;
+    color: aqua;
+}
