@@ -1,6 +1,7 @@
 .serverUiMain{
     width: 70%;
     margin-top: 13%;
+    margin-left: 1%;
     color: white;
     overflow-y: auto; 
     overflow-x:hidden;
