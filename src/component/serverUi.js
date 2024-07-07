@@ -39,7 +39,7 @@ function serverUi() {
             <div className="playButtons">
                 <button className="buttonICON"><b>PLAY</b></button>
                 <button className="buttonICON"><b>SPECTATE</b></button>
-                <button className="buttonICON"><b>JOIN AS COMMANDER</b></button>
+                <button className="buttonICON2"><b>JOIN AS COMMANDER</b></button>
                 <button className="startButton"><img className="starICON" src="/startICON.svg" alt="star" /><b>13672</b></button>
             </div>
 

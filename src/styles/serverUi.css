@@ -24,7 +24,6 @@
  margin:  2vh 2vh 2vh 0;
  display: flex;
  flex-direction: row;
-
  width: 100vh;
 }
 
@@ -35,7 +34,19 @@
     align-items: center;
     margin-right: 1vh;
     display: flex;
-    width: 27%;
+    width: 25%;
+    color: white;
+    background-color: transparent ;
+}
+
+.buttonICON2{
+    height: 4vh;
+    border: 1px solid rgba(255, 255, 255, .2);
+    justify-content: center;
+    align-items: center;
+    margin-right: 1vh;
+    display: flex;
+    width: 32%;
     color: white;
     background-color: transparent ;
 }
@@ -44,9 +55,15 @@
     background-color: white;
     color: black;
 }
+
+.buttonICON2:hover{
+    background-color: white;
+    color: black;
+}
+
 .startButton{
     height: 4vh;
-    width: 10vh;
+    width: 16%;
     border: 1px solid rgba(255, 255, 255, .2);
     justify-content: center;
     align-items: center;
