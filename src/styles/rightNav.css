@@ -8,7 +8,6 @@
     position:absolute;
     top: 8;
     right:0;
-    
 }
 
 .sideMenuItem{
@@ -42,13 +41,6 @@
     margin: 0.5vh;
     display: flex;
     align-items: center;
-}
-
-
-.sideMenuItem:hover{
-    background-color: white;
-    color: black;
-    height: max-content;
 }
 
 .sideMenuMain{
