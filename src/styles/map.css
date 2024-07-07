@@ -1,0 +1,43 @@
+.mapContainer{
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), #101010), linear-gradient(rgba(0, 85, 164, .47), rgba(0, 85, 164, .47));
+    width: fit-content;
+}
+.mapContainer:hover{
+   
+    background-image: none;
+    background-color: white;
+    color: black;
+}
+
+.mapimg{
+    height: 100%;
+    width: 103.55%;
+    margin-top: -0.15vh;
+    margin-left: -1vh;
+    transform: translate3d(0px, 0vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    
+}
+
+.map-mode{
+    letter-spacing: .1vh;
+    text-transform: uppercase;
+    margin-top: 2vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    font-family: Rajdhani, sans-serif;
+    font-size: 1.6vh;
+    font-weight: 700;
+    line-height: 2vh;
+}
+
+.mapDetails{
+    letter-spacing: .1vh;
+    text-transform: uppercase;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    font-family: Rajdhani, sans-serif;
+    font-size: 1.6vh;
+    font-weight: 700;
+    line-height: 2vh;
+}

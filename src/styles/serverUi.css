@@ -1,4 +1,80 @@
 .serverUiMain{
-    display: relative;
-    width: 60%;
+    width: 70%;
+    margin-top: 28vh;
+    color: white;
+    overflow-y: auto; 
+}
+.serverUiMain::-webkit-scrollbar{
+    width: 2px;
+}
+.serverUiMain::-webkit-scrollbar-thumb {
+    background: rgb(255, 255, 255);
+}
+
+.serverUiMain::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.04);
+}
+
+.antiCheat{
+    width: 70%;
+}
+.playButtons{
+ margin:  2vh 2vh 2vh 0;
+ display: flex;
+ flex-direction: row;
+ width: 100vh;
+}
+
+.buttonICON{
+    height: 4vh;
+    border: 1px solid rgba(255, 255, 255, .2);
+    justify-content: center;
+    align-items: center;
+    margin-right: 1vh;
+    display: flex;
+    width: 27%;
+    background-color: transparent ;
+}
+
+.buttonICON:hover{
+    background-color: white;
+    color: black;
+}
+.startButton{
+    height: 4vh;
+    width: 10vh;
+    border: 1px solid rgba(255, 255, 255, .2);
+    justify-content: center;
+    align-items: center;
+    margin-right: 1vh;
+    display: flex;
+    background-color: transparent ;
+
+}
+
+.startButton:hover{
+    background-color: white;
+
+}
+
+.starICON {
+    height: 2vh;
+    width: 3vh;
+
+}
+
+.serverStat{
+    display: flex;
+    gap: 15vh;
+    margin-top: 1vh;
+}
+
+.settingsNrules{
+    display: flex;
+    margin-top: 3vh;
+    gap: 5vh;
+    width: 100vh;
+}
+.settings{
+    width: 30vh;
 }

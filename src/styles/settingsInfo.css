@@ -1,0 +1,10 @@
+.optionsMenu{
+    margin: 1vh 0 0 2vh;
+display: flex;
+padding-top: .5vh;
+padding-bottom: .5vh;
+padding-left: 1vh;
+padding-right: 1vh;
+justify-content: space-between;
+border-bottom: 0.3px solid white;
+}
